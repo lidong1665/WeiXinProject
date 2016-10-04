@@ -1,0 +1,48 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+
+.health_tools {
+   display: flex; 
+   flex-direction: column;
+   /*align-items: center;*/
+   align-self: flex-start;
+} 
+
+.health_tools_w {
+   display: flex; 
+   flex-direction: column;
+   align-items: center;
+   align-self: flex-start;
+   justify-content: center;
+   border:0px solid;
+   height: 80px;
+   flex: 0 0 32.5%;
+} 
+
+.eee {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+} 
+
+.k1 {
+  width: 50px;
+  height: 50px;
+  margin: 20rpx;
+} 
+
+.t1 {
+  font-size: 5px;
+  font-style: italic;
+} 
+
+.t {
+    width: 100%;
+  background-color:aquamarine;
+} 

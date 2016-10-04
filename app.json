@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+     "pages/detail/detail",
+     "pages/health_tools/health_tools"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "green",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "微信接口功能演示",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+      "color":"white",
+      "selectedColor":"green",
+      "backgroundColor":"#332f4f",
+      "list": [{
+      "pagePath": "pages/index/index",
+      "text": "健康任务",
+      "iconPath":"../img/my_health_un.png",
+      "selectedIconPath":"../img/my_health_on.png"
+    }, {
+      "pagePath": "pages/health_tools/health_tools",
+      "text": "健康工具",
+       "color":"white",
+      "selectedColor":"green",
+       "iconPath":"../img/my_health_community_un.png",
+      "selectedIconPath":"../img/my_health_community_on.png"
+    }, {
+      "pagePath": "pages/detail/detail",
+      "text": "健康社区",
+       "color":"white",
+      "selectedColor":"green",
+       "iconPath":"img/my_health_consult_un.png",
+      "selectedIconPath":"img/my_health_consult_on.png"
+    },
+    {
+      "pagePath": "pages/detail/detail",
+      "text": "我的健康",
+       "color":"white",
+       "selectedColor":"green",
+       "iconPath":"img/my_account_un.png",
+      "selectedIconPath":"img/my_account_on.png"
+    }]
+  }
+}

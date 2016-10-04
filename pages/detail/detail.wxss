@@ -1,0 +1,39 @@
+/**app.wxss**/
+.lll {
+    display: flex; 
+   flex-direction: row;
+   align-items: stretch;
+   height: 80px;
+} 
+
+.eee {
+   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 80px;
+} 
+
+.container1 {
+  
+  flex-direction: column;
+} 
+.k1 {
+  width: 60px;
+  height: 60px;
+  background-color: #eeeeee;
+  margin: 20rpx;
+} 
+
+tips1{
+   height: 60px;
+
+}
+
+r1{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   align-self: center;
+   justify-content: center;
+}
+

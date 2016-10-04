@@ -1,0 +1,35 @@
+<view class="health_tools" >
+<view class="t">基本健康</view>
+ <view class="eee">
+  
+  <view class="health_tools_w"  wx:for-items="{{list}}" wx:for-item="item"   bindtap="bindViewTap" 
+         data-title="{{item.title}}" >
+      <image class="k1" src="{{item.img}}"></image>
+      <view class="t1">{{item.title}}</view>
+</view>
+</view>
+<view class="t">健康报告</view>
+ <view class="eee">
+  
+  <view class="health_tools_w"  wx:for="{{list}}" wx:for-item="item"  >
+      <image class="k1" src="{{item.img}}"></image>
+      <view class="t1">{{item.title}}</view>
+</view>
+</view>
+<view class="t">健康日志</view>
+ <view class="eee">
+  
+  <view class="health_tools_w"  wx:for="{{list}}" wx:for-item="item"  >
+      <image class="k1" src="{{item.img}}"></image>
+      <view class="t1">{{item.title}}</view>
+</view>
+</view>
+<view class="t">干预管理</view>
+ <view class="eee">
+  
+  <view class="health_tools_w"  wx:for="{{list}}" wx:for-item="item"  >
+      <image class="k1" src="{{item.img}}"></image>
+      <view class="t1">{{item.title}}</view>
+</view>
+</view>
+</view>

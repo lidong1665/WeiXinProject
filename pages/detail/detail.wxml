@@ -1,0 +1,21 @@
+ <loading hidden="{{hidden}}" bindchange="loadingChange">
+    加载中...
+  </loading>  
+ <scroll-view scroll-y="true" style="height: 100%;" bindscrolltolower="loadMore" bindscrolltoupper="refesh">
+      <view wx:if="{{hasRefesh}}" style="display: flex;flex-direction: row;align-items: center;align-self: center;justify-content: center;">
+      <icon type="waiting" size="45"/><text>刷新中...</text></view>
+      <view wx:else  style="display:none" ><text>没有更多内容了</text></view>
+  <view class="lll"  wx:for="{{list}}" wx:for-item="item" bindtap="bindViewTap" 
+         data-title="{{item.title}}" >
+      <image style=" width: 50px;height: 50px;margin: 20rpx;" src="{{item.firstImg}}"   ></image>
+      <view  class="eee" > 
+       <view style="margin:5px;font-size:8px"> 标题:{{item.title}}</view>
+       <view style="margin:5px;color:red;font-size:6px"> 来源:{{item.source}}</view>
+       </view>
+</view>
+<view class="tips1">
+      <view wx:if="{{hasMore}}" style="display: flex;flex-direction: row;align-items: center;align-self: center;justify-content: center;">
+      <icon type="waiting" size="45"/><text>玩命的加载中...</text></view>
+      <view wx:else><text>没有更多内容了</text></view>
+    </view>
+ </scroll-view>
