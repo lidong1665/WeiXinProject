@@ -33,7 +33,7 @@ function _post(url,data, success, fail ) {
     wx.request( {
         url: url,
         header: {
-            'Content-Type': 'content-type x-www-form-urlencoded',
+            'Content-Type': 'application/x-www-form-urlencoded',
             'Accept': 'application/json',
         },
         method:'POST',
