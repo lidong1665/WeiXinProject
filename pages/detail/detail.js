@@ -37,7 +37,7 @@ let map = new Map();
 map.set('customerid','0010000022464');
 let d = json_util.mapToJson(util.tokenAndKo(map));
 console.log(d);
- var url1 = 'http://60.205.59.180:8088/getUserBindingDevice';
+ var url1 = 'http://127.0.0.1:8088/getUserBindingDevice';
 
 network_util._post(url1,d,
 function(res){
